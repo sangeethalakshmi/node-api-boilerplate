@@ -8,9 +8,8 @@ It includes Docker/Mongo/Mariadb(Mysql) configuration files + a full Babel/Node.
 #### Clone the project and install dependencies
 
 ```bash
-git clone git@github.com:hqro/Node-API-Boilterplate.git demo
-cd demo
-yarn install
+cd node-api-boilerplate
+npm install
 ```
 
 #### Don't forget to remove `.git` directory
@@ -24,20 +23,20 @@ git remote add ...
 #### Development mode
 
 ```bash
-yarn start
+npm start
 ```
 
 #### Tests mode
 
 ```bash
-yarn test
+npm test
 ```
 
 #### Production mode
 
 ```bash
-yarn build
-yarn production
+npm build
+npm production
 ```
 
 
